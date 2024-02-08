@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'let' em JavaScript?",
+  {
+      pergunta: 'Quem é o ator que interpreta Eleven em Stranger Things?',
       respostas: [
-        "Declarar uma constante.",
-        "Declarar uma variável local.",
-        "Declarar uma variável global."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o 'hoisting' em JavaScript?",
-      respostas: [
-        "Um tipo de loop.",
-        "O processo de mover declarações para o topo do escopo.",
-        "Uma função de manipulação de strings."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se chama a estrutura de controle de fluxo que avalia uma expressão e executa um bloco de código se a expressão for verdadeira?",
-      respostas: [
-        "If",
-        "Switch",
-        "While"
+          'Millie Bobby Brown',
+          'Finn Wolfhard',
+          'Gaten Matarazzo',
       ],
       correta: 0
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
+  },
+  {
+      pergunta: 'Qual é o nome da cidade onde se passa a maior parte da trama de Stranger Things?',
       respostas: [
-        "Um formato de arquivo.",
-        "A linguagem de programação padrão do navegador.",
-        "A representação do documento como uma árvore de objetos."
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual função é usada para imprimir mensagens no console?",
-      respostas: [
-        "logMessage()",
-        "displayText()",
-        "console.log()"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma arrow function em JavaScript?",
-      respostas: [
-        "Uma função que retorna sempre 'true'.",
-        "Uma função com sintaxe mais curta e lexical 'this'.",
-        "Uma função exclusiva para manipulação de arrays."
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se declara um array em JavaScript?",
-      respostas: [
-        "let myArray = []",
-        "array = []",
-        "new Array()"
+          'Hawkins',
+          'Derry',
+          'Castle Rock',
       ],
       correta: 0
-    },
-    {
-      pergunta: "O que é um callback em JavaScript?",
+  },
+  {
+      pergunta: 'Qual é o nome do mundo alternativo em Stranger Things?',
       respostas: [
-        "Um tipo de erro de execução.",
-        "Uma função passada como argumento para outra função.",
-        "Um método para realizar operações de chamada em strings."
+          'Mundo ao Contrário',
+          'Upside Down',
+          'Dark Realm',
       ],
       correta: 1
-    },
-    {
-      pergunta: "Qual operador é usado para verificar igualdade de valor e tipo em JavaScript?",
+  },
+  {
+      pergunta: 'Qual é o nome do grupo de amigos protagonistas na série?',
       respostas: [
-        "==",
-        "===",
-        "!="
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de manipulação de objetos.",
-        "Uma biblioteca para gráficos 3D.",
-        "Um formato de dados leve e independente de linguagem."
+          'The Goonies',
+          'The Losers Club',
+          'The Party',
       ],
       correta: 2
-    }
-  ];
+  },
+  {
+      pergunta: 'Quem é o personagem que tem uma relação especial com o Mundo ao Contrário?',
+      respostas: [
+          'Mike Wheeler',
+          'Will Byers',
+          'Lucas Sinclair',
+      ],
+      correta: 1
+  },
+  {
+      pergunta: 'Qual é o nome do laboratório responsável pelos experimentos em Stranger Things?',
+      respostas: [
+          'Hawkins Lab',
+          'MKUltra Lab',
+          'Aperture Science',
+      ],
+      correta: 0
+  },
+  {
+      pergunta: 'Quem é o chefe de polícia em Hawkins?',
+      respostas: [
+          'Jim Hopper',
+          'Steve Harrington',
+          'Jonathan Byers',
+      ],
+      correta: 0
+  },
+  {
+      pergunta: 'Qual é o nome do monstro que aterroriza Hawkins na primeira temporada?',
+      respostas: [
+          'Demogorgon',
+          'Mind Flayer',
+          'Shadow Monster',
+      ],
+      correta: 0
+  },
+  {
+      pergunta: 'Qual é o nome da irmã de Mike Wheeler em Stranger Things?',
+      respostas: [
+          'Max',
+          'Nancy',
+          'Barb',
+      ],
+      correta: 0
+  },
+  {
+      pergunta: 'Qual é o nome do shopping que se torna um ponto importante na terceira temporada?',
+      respostas: [
+          'Starcourt Mall',
+          'Hawkins Plaza',
+          'Mall of Hawkins',
+      ],
+      correta: 0
+  }
+];
   
 const quiz = document.querySelector("#quiz");
 const template = document.querySelector("template");
