@@ -1,94 +1,94 @@
 const perguntas = [
-  {
-      pergunta: 'Quem é o ator que interpreta Eleven em Stranger Things?',
-      respostas: [
-          'Millie Bobby Brown',
-          'Finn Wolfhard',
-          'Gaten Matarazzo',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Qual é o nome da cidade onde se passa a maior parte da trama de Stranger Things?',
-      respostas: [
-          'Hawkins',
-          'Derry',
-          'Castle Rock',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Qual é o nome do mundo alternativo em Stranger Things?',
-      respostas: [
-          'Mundo ao Contrário',
-          'Upside Down',
-          'Dark Realm',
-      ],
-      correta: 1
-  },
-  {
-      pergunta: 'Qual é o nome do grupo de amigos protagonistas na série?',
-      respostas: [
-          'The Goonies',
-          'The Losers Club',
-          'The Party',
-      ],
-      correta: 2
-  },
-  {
-      pergunta: 'Quem é o personagem que tem uma relação especial com o Mundo ao Contrário?',
-      respostas: [
-          'Mike Wheeler',
-          'Will Byers',
-          'Lucas Sinclair',
-      ],
-      correta: 1
-  },
-  {
-      pergunta: 'Qual é o nome do laboratório responsável pelos experimentos em Stranger Things?',
-      respostas: [
-          'Hawkins Lab',
-          'MKUltra Lab',
-          'Aperture Science',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Quem é o chefe de polícia em Hawkins?',
-      respostas: [
-          'Jim Hopper',
-          'Steve Harrington',
-          'Jonathan Byers',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Qual é o nome do monstro que aterroriza Hawkins na primeira temporada?',
-      respostas: [
-          'Demogorgon',
-          'Mind Flayer',
-          'Shadow Monster',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Qual é o nome da irmã de Mike Wheeler em Stranger Things?',
-      respostas: [
-          'Max',
-          'Nancy',
-          'Barb',
-      ],
-      correta: 0
-  },
-  {
-      pergunta: 'Qual é o nome do shopping que se torna um ponto importante na terceira temporada?',
-      respostas: [
-          'Starcourt Mall',
-          'Hawkins Plaza',
-          'Mall of Hawkins',
-      ],
-      correta: 0
-  }
+    {
+        pergunta: 'Qual é a capital do Brasil?',
+        respostas: [
+            'Rio de Janeiro',
+            'Brasília',
+            'São Paulo',
+        ],
+        correta: 1
+    },
+    {
+        pergunta: 'Quantos estados compõem o Brasil?',
+        respostas: [
+            '25',
+            '27',
+            '30',
+        ],
+        correta: 1
+    },
+    {
+        pergunta: 'Qual é a maior floresta tropical do Brasil?',
+        respostas: [
+            'Floresta Amazônica',
+            'Mata Atlântica',
+            'Cerrado',
+        ],
+        correta: 0
+    },
+    {
+        pergunta: 'Quem foi o primeiro presidente do Brasil?',
+        respostas: [
+            'Getúlio Vargas',
+            'Juscelino Kubitschek',
+            'Deodoro da Fonseca',
+        ],
+        correta: 2
+    },
+    {
+        pergunta: 'Qual é a moeda oficial do Brasil?',
+        respostas: [
+            'Peso',
+            'Real',
+            'Dólar',
+        ],
+        correta: 1
+    },
+    {
+        pergunta: 'Em que ano o Brasil sediou a Copa do Mundo de Futebol pela última vez?',
+        respostas: [
+            '2006',
+            '2010',
+            '2014',
+        ],
+        correta: 2
+    },
+    {
+        pergunta: 'Qual é o nome da famosa estátua localizada no Rio de Janeiro?',
+        respostas: [
+            'Cristo Redentor',
+            'Estátua da Liberdade',
+            'Colosso de Rodes',
+        ],
+        correta: 0
+    },
+    {
+        pergunta: 'Qual é o prato típico brasileiro feito com feijão-preto, arroz, carne-seca, linguiça e outros ingredientes?',
+        respostas: [
+            'Churrasco',
+            'Feijoada',
+            'Coxinha',
+        ],
+        correta: 1
+    },
+    {
+        pergunta: 'Qual é a maior festa popular do Brasil, conhecida por suas celebrações coloridas e desfiles de escolas de samba?',
+        respostas: [
+            'Oktoberfest',
+            'Carnaval',
+            'Festa Junina',
+        ],
+        correta: 1
+    },
+    {
+        pergunta: 'Qual é a língua oficial do Brasil?',
+        respostas: [
+            'Espanhol',
+            'Português',
+            'Inglês',
+        ],
+        correta: 1
+    }
 ];
   
 const quiz = document.querySelector("#quiz");
